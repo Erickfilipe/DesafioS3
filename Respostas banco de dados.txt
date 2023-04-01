@@ -1,0 +1,13 @@
+1- 1 = Database,
+2 = Schema,
+3 = Tabelas,
+4 = outros objetos.
+
+5- E uma caraterística que não pode repetir em outros elementos da mesma tabela, pois é usado para dar uma localização para o elemento.
+
+11- A normalização são bons hábitos que se devem manter na criação de um código sql, A primeira forma tráz atributos atomicos,  não pode trazer campos repetidos ou campos multivalorados.
+	A segunda: Prescisa da primeira concluída, os atributos devem depender unicamente da chave da tabela, não podem depender de parte dela.
+Se a chave primária é simples já se está na segunda formal, mas se ela for composta é necessário remover a coluna é cria uma nova tabela.
+	A terceira: As formas são como peças de um quebra cabeças que prescisa de todas as peças para estar completo, mas nesse caso é necessário a primeira forma para fazer a segunda é da segunda para fazer a terceira.
+	Os atributos que não são chaves deveram depender unicamente e exclusivamente da chave primária.
+	indentefique as tabelas que são funcionalmente independentesdas outras e extraí-las para outra tabela.

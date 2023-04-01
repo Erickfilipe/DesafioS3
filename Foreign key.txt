@@ -1,0 +1,4 @@
+Foreign key
+primary key generated always as identity
+joins:
+O a(esquerda) sempre está no from é o b(direita) no join
